@@ -50,7 +50,7 @@ $(document).ready(function () {
                 var logo = "http://icons.iconarchive.com/icons/paomedia/small-n-flat/1024/sign-error-icon.png";
                 var displayName = data3.statusText;
                 var status = data3.status;
-                $("#followerInfo").prepend("<div class ='row'>" + "<div class='col-md-4'>" +
+                $("#followerInfo").prepend("<div class ='row'>" + "<div class='col-md-2'>" +
                     "<a  href='https://www.twitch.tv/" + displayName + +"'><img src='" + logo + "'></a>" +
                     "</div>" + "<div class='col-md-4 text-center'>" + displayName + "</div>" + "<div class='col-md-4'>" + status + "</div></div>");
             }
