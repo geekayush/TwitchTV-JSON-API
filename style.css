@@ -1,0 +1,62 @@
+body {
+    background-image: url("http://wallpapercave.com/wp/LRxGqsU.jpg");
+    color: rgba(255, 255, 255, 0.8);
+    font-family: 'Montserrat';
+    background-size: cover;
+    margin-top: 30px;
+}
+
+#header {
+    background: rgba(100, 100, 100, 0.75);
+    border: 5px #afafaf solid;
+    border-radius: 25px;
+    margin-bottom: 30px;
+}
+
+#header h1 {
+    font-size: 6rem;
+    color: white;
+}
+
+#fccStatus {
+    width: 40%;
+    margin: 5px auto;
+}
+
+#header a {
+    color: orange;
+}
+
+#header a:hover {
+    text-decoration: none;
+    color: gold;
+}
+
+#header a:focus {
+    text-decoration: none;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.col-md-2 {
+    padding: 30px;
+}
+
+.row {
+    background: rgba(0, 0, 0, .45);
+    border: 1px #afafaf solid;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#top {
+    padding-bottom: 15px;
+    text-transform: uppercase;
+    text-align: center;
+}
